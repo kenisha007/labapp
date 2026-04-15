@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 Hello from Naman</h1>
+        <p>This Flask app is deployed using Azure App Service CI/CD.</p>
+
+        <button onclick="changeText()">Click Me</button>
+        <p id="demo"></p>
+    </div>
+
+    <script>
+        function changeText() {
+            document.getElementById("demo").innerHTML = "🔥 Deployment Successful!";
+        }
+    </script>
+
+</body>
+</html>
