@@ -1,1 +1,1 @@
-# labapp
+# azure_app_link
